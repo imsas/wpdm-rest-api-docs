@@ -1,4 +1,4 @@
-# Introduction
+# About
 
 This repo documents the [WordPress Download Manager](https://www.wpdownloadmanager.com/) REST API. This REST API allows a HTTP client to create, read, update, and delete WordPress Download Manager data using requests in JSON format.
 

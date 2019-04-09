@@ -7,7 +7,6 @@ language_tabs: # must be one of https://git.io/vQNgJ
 toc_footers:
   - <a href='https://www.wpdownloadmanager.com/docsfor/download-manager-pro/'>Download Manager Documentation</a>
   - <a href='https://www.wpdownloadmanager.com/support/forum/download-manager-pro/'>Support Forum</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
   - packages

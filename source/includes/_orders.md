@@ -102,7 +102,7 @@ curl -X GET \
                     "by": "Customer"
                 },
                 "2": {
-                    "note": "Here is the doc https://www.wpdownloadmanager.com/docsfor/download-manager-pro/",
+                    "note": "Here is the doc https://www.wpdownloadmanager.com/",
                     "by": "Customer"
                 }
             }
@@ -233,7 +233,7 @@ This endpoint retrieves all Orders. Use query parameters to limit the response.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/orders`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/orders</span></span>
 
 ### Query Parameters
 
@@ -385,7 +385,7 @@ This endpoint creates a new Order and sets Order properties based on POST data.
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/orders`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/orders</span></span>
 
 ## Get an Order
 
@@ -466,7 +466,7 @@ This endpoint retrieves a specific Order by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/orders/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/orders/:id</span></span>
 
 ## Update an Order
 
@@ -551,7 +551,7 @@ This endpoint updates a specific Order by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/orders/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/orders/:id</span></span>
 
 ## Delete an Order
 
@@ -663,4 +663,4 @@ This endpoint deletes a specific Order by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/orders/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/orders/:id</span></span>

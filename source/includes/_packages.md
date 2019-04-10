@@ -162,7 +162,7 @@ curl -X GET \
       "email_lock_title": "Subscribe To Download",
       "email_lock_msg": "",
       "email_lock_idl": "0",
-      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow_down.png",
+      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow.png",
       
       "base_price": "12.00",
       "sales_price": "10.00",
@@ -201,7 +201,7 @@ curl -X GET \
       "title": "The Alchemist",
       "slug": "the-alchemist",
       "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
       "author": 1,
       "status": "publish",
       "parent": 0,
@@ -274,7 +274,7 @@ curl -X GET \
       "email_lock_title": "Subscribe To Download",
       "email_lock_msg": "",
       "email_lock_idl": "0",
-      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow_down.png",
+      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow.png",
       
       "base_price": "12.00",
       "sales_price": "10.00",
@@ -316,7 +316,7 @@ This endpoint retrieves all packages. Use query parameters to filter packages.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/packages`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/packages</span></span>
 
 ### Query Parameters
 
@@ -338,7 +338,7 @@ curl -X POST \
   -d '{
 	 "title": "The Alchemist",
      "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-     "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+     "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
      "status": "publish",
      "tags": [
         "novel",
@@ -363,7 +363,7 @@ curl -X POST \
       "title": "The Alchemist",
       "slug": "the-alchemist",
       "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
       "author": 1,
       "status": "publish",
       "parent": 0,
@@ -477,7 +477,7 @@ This endpoint creates a new Package and sets package properties based on POST da
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/packages`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/packages</span></span>
 
 ## Get a Package
 
@@ -496,7 +496,7 @@ curl -X GET \
       "title": "The Alchemist",
       "slug": "the-alchemist",
       "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
       "author": 1,
       "status": "publish",
       "parent": 0,
@@ -569,7 +569,7 @@ curl -X GET \
       "email_lock_title": "Subscribe To Download",
       "email_lock_msg": "",
       "email_lock_idl": "0",
-      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow_down.png",
+      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow.png",
       
       "base_price": "12.00",
       "sales_price": "10.00",
@@ -610,7 +610,7 @@ This endpoint retrieves a specific Package by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/packages/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/packages/:id</span></span>
 
 ## Update a Package
 
@@ -622,7 +622,7 @@ curl -X PUT \
   -d '{
 	 "title": "The Alchemist",
      "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-     "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+     "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
      "status": "publish",
      "tags": [
         "novel",
@@ -647,7 +647,7 @@ curl -X PUT \
       "title": "The Alchemist",
       "slug": "the-alchemist",
       "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
       "author": 1,
       "status": "publish",
       "parent": 0,
@@ -720,7 +720,7 @@ curl -X PUT \
       "email_lock_title": "Subscribe To Download",
       "email_lock_msg": "",
       "email_lock_idl": "0",
-      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow_down.png",
+      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow.png",
       
       "base_price": "12.00",
       "sales_price": "10.00",
@@ -761,7 +761,7 @@ This endpoint updates a specific Package by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/packages/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/packages/:id</span></span>
 
 ## Delete a Package
 
@@ -780,7 +780,7 @@ curl -X DELETE \
       "title": "The Alchemist",
       "slug": "the-alchemist",
       "description": "The Alchemist follows the journey of an Andalusian shepherd boy named Santiago.",
-      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988.",
+      "excerpt": "The Alchemist is a novel by Brazilian author Paulo Coelho.",
       "author": 1,
       "status": "publish",
       "parent": 0,
@@ -853,7 +853,7 @@ curl -X DELETE \
       "email_lock_title": "Subscribe To Download",
       "email_lock_msg": "",
       "email_lock_idl": "0",
-      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow_down.png",
+      "icon": "https://example.com/wp-content/plugins/download-manager/assets/file-type-icons/arrow.png",
       
       "base_price": "12.00",
       "sales_price": "10.00",
@@ -894,4 +894,4 @@ This endpoint deletes a specific Package by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/packages/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/packages/:id</span></span>

@@ -78,7 +78,7 @@ This endpoint retrieves all Download Stats. Use query parameters to filter resul
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/stats`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/stats</span></span>
 
 ### Query Parameters
 
@@ -132,7 +132,7 @@ This endpoint creates a new Download Stat and sets Download Stat properties base
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/stats`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/stats</span></span>
 
 ## Get a Download Stat
 
@@ -164,7 +164,7 @@ This endpoint retrieves a specific Download Stat by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/stats/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/stats/:id</span></span>
 
 ## Update a Download Stat
 
@@ -207,7 +207,7 @@ This endpoint updates a specific Download Stat by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/stats/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/stats/:id</span></span>
 
 ## Delete a Download Stat
 
@@ -239,4 +239,4 @@ This endpoint deletes a specific Download Stat by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/stats/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/stats/:id</span></span>

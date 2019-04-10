@@ -81,7 +81,7 @@ This endpoint retrieves all Subscribers. Use query parameters to filter result.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/subscribers`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/subscribers</span></span>
 
 ### Query Parameters
 
@@ -138,7 +138,7 @@ This endpoint creates a new Subscriber and sets Subscriber properties based on P
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/subscribers`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/subscribers</span></span>
 
 ## Get a Subscriber
 
@@ -172,7 +172,7 @@ This endpoint retrieves a specific Subscriber by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/subscribers/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/subscribers/:id</span></span>
 
 ## Update a Subscriber
 
@@ -219,7 +219,7 @@ This endpoint updates a specific Subscriber by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/subscribers/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/subscribers/:id</span></span>
 
 ## Delete a Subscriber
 
@@ -253,4 +253,4 @@ This endpoint deletes a specific Subscriber by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/subscribers/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/subscribers/:id</span></span>

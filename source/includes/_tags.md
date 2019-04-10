@@ -64,7 +64,7 @@ This endpoint retrieves all Tags. Use query parameters to filter result.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/tags`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/tags</span></span>
 
 ### Query Parameters
 
@@ -114,7 +114,7 @@ This endpoint creates a new Tag and sets Tag properties based on POST data.
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/tags`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/tags</span></span>
 
 ## Get a Tag
 
@@ -147,7 +147,7 @@ This endpoint retrieves a specific Tag by ID (`term_id` ).
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/tags/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/tags/:id</span></span>
 
 ## Update a Tag
 
@@ -185,7 +185,7 @@ This endpoint updates a specific Tag by ID (`term_id` ).
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/tags/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/tags/:id</span></span>
 
 ## Delete a Tag
 
@@ -218,4 +218,4 @@ This endpoint deletes a specific Tag by ID (`term_id` ).
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/tags/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/tags/:id</span></span>

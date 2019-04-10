@@ -71,7 +71,7 @@ This endpoint retrieves all Coupons. Use query parameters to filter result.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/coupons`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/coupons</span></span>
 
 ### Query Parameters
 
@@ -127,7 +127,7 @@ This endpoint creates a new Coupon and sets Coupon properties based on POST data
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/coupons`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/coupons</span></span>
 
 ## Get a Coupon
 
@@ -161,7 +161,7 @@ This endpoint retrieves a specific Coupon by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/coupons/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/coupons/:id</span></span>
 
 ## Update a Coupon
 
@@ -208,7 +208,7 @@ This endpoint updates a specific Coupon by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/coupons/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/coupons/:id</span></span>
 
 ## Delete a Coupon
 
@@ -242,4 +242,4 @@ This endpoint deletes a specific Coupon by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/coupons/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/coupons/:id</span></span>

@@ -67,7 +67,7 @@ This endpoint retrieves all Licenses. Use query parameters to filter result.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/licenses`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/licenses</span></span>
 
 ### Query Parameters
 
@@ -126,7 +126,7 @@ This endpoint creates a new License and sets License properties based on POST da
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/licenses`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/licenses</span></span>
 
 ## Get a License
 
@@ -161,7 +161,7 @@ This endpoint retrieves a specific License by ID.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/licenses/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/licenses/:id</span></span>
 
 ## Update a License
 
@@ -210,7 +210,7 @@ This endpoint updates a specific License by ID.
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/licenses/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/licenses/:id</span></span>
 
 ## Delete a License
 
@@ -245,4 +245,4 @@ This endpoint deletes a specific License by ID.
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/licenses/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/licenses/:id</span></span>

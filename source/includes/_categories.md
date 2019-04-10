@@ -82,7 +82,7 @@ This endpoint retrieves all Categories. Use query parameters to filter result.
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/categories`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/categories</span></span>
 
 ### Query Parameters
 
@@ -152,7 +152,7 @@ This endpoint creates a new Category and sets Category properties based on POST 
 
 ### HTTP Request
 
-`POST https://example.com/wp-json/wpdm/v1/categories`
+<span class="http-request"><span class="http-verb http-post">POST</span><span class="api-endpoint">/wp-json/wpdm/v1/categories</span></span>
 
 ## Get a Category
 
@@ -194,7 +194,7 @@ This endpoint retrieves a specific Category by ID (`term_id` ).
 
 ### HTTP Request
 
-`GET https://example.com/wp-json/wpdm/v1/categories/<id>`
+<span class="http-request"><span class="http-verb http-get">GET</span><span class="api-endpoint">/wp-json/wpdm/v1/categories/:id</span></span>
 
 ## Update a Category
 
@@ -251,7 +251,7 @@ This endpoint updates a specific Category by ID (`term_id` ).
 
 ### HTTP Request
 
-`PUT https://example.com/wp-json/wpdm/v1/categories/<id>`
+<span class="http-request"><span class="http-verb http-put">PUT</span><span class="api-endpoint">/wp-json/wpdm/v1/categories/:id</span></span>
 
 ## Delete a Category
 
@@ -293,4 +293,4 @@ This endpoint deletes a specific Category by ID (`term_id` ).
 
 ### HTTP Request
 
-`DELETE https://example.com/wp-json/wpdm/v1/categories/<id>`
+<span class="http-request"><span class="http-verb http-delete">DELETE</span><span class="api-endpoint">/wp-json/wpdm/v1/categories/:id</span></span>

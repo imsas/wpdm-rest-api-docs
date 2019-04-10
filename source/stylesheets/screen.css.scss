@@ -539,7 +539,9 @@ html, body {
 
     @extend %right-col;
 
-    &>p { margin: 0; }
+    &>p {
+      margin: 0;
+    }
 
     a {
       color: #fff;
@@ -560,11 +562,15 @@ html, body {
       background-color: $code-annotation-bg;
       padding: $code-annotation-padding 2em;
       color: #eee;
+      //margin: 0 22px;
+      //border-radius: 3px;
+      font-family: 'Raleway', sans-serif;
     }
   }
 }
 .highlight .ss, .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #A4F46C;
+  color: #1ea672;
+  //color: #A4F46C;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -629,4 +635,36 @@ html, body {
 
 .highlight, .highlight .w {
   background-color: $code-bg;
+}
+
+span.http-request {
+  background: #47525d;
+  padding: 10px;
+  border-radius: 3px;
+  display: block;
+  color: #fff;
+}
+span.http-verb {
+  padding: 3px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+span.http-get {
+  background: #3ecf8e;
+}
+span.http-post {
+  background: #a560e8;
+}
+span.http-put {
+  background: #89ba16;
+}
+span.http-delete {
+  background: #f85a40;
+}
+span.api-endpoint {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }

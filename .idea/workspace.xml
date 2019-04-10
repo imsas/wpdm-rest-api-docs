@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df138141-4de8-418a-b046-8b3ee8ecaf78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/index.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_categories.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_categories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_coupons.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_coupons.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_licenses.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_licenses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_orders.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_orders.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_packages.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_packages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_stats.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_stats.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_subscribers.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_subscribers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/includes/_tags.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_tags.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylesheets/screen.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/screen.css.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +24,46 @@
     <session id="-2138412263">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="13" />
+          <entry key="scss" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="13" />
+          <entry key="SCSS" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="471" />
+          <entry key="scss" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="471" />
+          <entry key="SCSS" value="53" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.html.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -46,6 +72,22 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>that was first published in 1988</find>
+      <find>content</find>
+      <find>is the doc</find>
+      <find>HTTP Request</find>
+      <find>&lt;span class=&quot;http-request&quot;&gt;&lt;</find>
+      <find>&lt;span class=&quot;http-request</find>
+      <find>&lt;span class=&quot;http-request&quot;&gt;</find>
+      <find>block</find>
+      <find>$examples-bg</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/source/includes</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,6 +95,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/index.html.md" />
+        <option value="$PROJECT_DIR$/source/stylesheets/_variables.scss" />
+        <option value="$PROJECT_DIR$/source/includes/_packages.md" />
+        <option value="$PROJECT_DIR$/source/includes/_tags.md" />
+        <option value="$PROJECT_DIR$/source/includes/_categories.md" />
+        <option value="$PROJECT_DIR$/source/includes/_coupons.md" />
+        <option value="$PROJECT_DIR$/source/includes/_licenses.md" />
+        <option value="$PROJECT_DIR$/source/includes/_orders.md" />
+        <option value="$PROJECT_DIR$/source/includes/_stats.md" />
+        <option value="$PROJECT_DIR$/source/includes/_subscribers.md" />
+        <option value="$PROJECT_DIR$/source/stylesheets/screen.css.scss" />
       </list>
     </option>
   </component>
@@ -109,6 +161,12 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wpdm-rest-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wpdm-rest-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,25 +202,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554835538164</updated>
-      <workItem from="1554835539462" duration="94000" />
+      <workItem from="1554835539462" duration="1273000" />
+      <workItem from="1554879150105" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94000" />
+    <option name="totallyTimeSpent" value="7015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1125" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -170,10 +224,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,11 +242,127 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/includes/_categories.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="889">
+            <caret line="293" column="16" lean-forward="true" selection-start-line="293" selection-start-column="16" selection-end-line="293" selection-end-column="16" />
+            <folding>
+              <element signature="e#1087#2202#0" />
+              <element signature="e#3843#4344#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_coupons.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="244" column="145" selection-start-line="244" selection-start-column="145" selection-end-line="244" selection-end-column="145" />
+            <folding>
+              <element signature="e#1292#2032#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_errors.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_licenses.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="247" column="146" selection-start-line="247" selection-start-column="146" selection-end-line="247" selection-end-column="146" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_orders.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="665" column="25" selection-start-line="665" selection-start-column="25" selection-end-line="665" selection-end-column="25" />
+            <folding>
+              <element signature="e#2133#7393#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_packages.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="896" column="146" selection-start-line="896" selection-start-column="146" selection-end-line="896" selection-end-column="146" />
+            <folding>
+              <element signature="e#121#4380#0" />
+              <element signature="e#4680#11622#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_stats.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="241" column="143" selection-start-line="241" selection-start-column="143" selection-end-line="241" selection-end-column="143" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_subscribers.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="890">
+            <caret line="255" column="149" selection-start-line="255" selection-start-column="149" selection-end-line="255" selection-end-column="149" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/screen.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="658" column="21" selection-start-line="658" selection-start-column="21" selection-end-line="658" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/includes/_tags.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="215">
+            <caret line="175" column="22" lean-forward="true" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
           </first_editor>
           <second_editor />
         </state>

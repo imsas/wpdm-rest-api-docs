@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df138141-4de8-418a-b046-8b3ee8ecaf78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_categories.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_categories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_coupons.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_coupons.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_licenses.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_licenses.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_orders.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_orders.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_packages.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_packages.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_stats.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_stats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_subscribers.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_subscribers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/includes/_tags.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/includes/_tags.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/screen.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/screen.css.scss" afterDir="false" />
-    </list>
+    <list default="true" id="df138141-4de8-418a-b046-8b3ee8ecaf78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +12,7 @@
     <session id="-2138412263">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -57,20 +45,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/index.html.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -159,12 +134,6 @@
               <item name="wpdm-rest-api-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="wpdm-rest-api-docs" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wpdm-rest-api-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wpdm-rest-api-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,16 +172,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554835538164</updated>
       <workItem from="1554835539462" duration="1273000" />
-      <workItem from="1554879150105" duration="5742000" />
+      <workItem from="1554879150105" duration="5945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7015000" />
+    <option name="totallyTimeSpent" value="7218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1125" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,8 +329,8 @@
     <entry file="file://$PROJECT_DIR$/source/index.html.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="585">
+            <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>

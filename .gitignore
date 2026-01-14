@@ -1,0 +1,12 @@
+# Dependencies
+vendor/
+.bundle/
+
+# IDE
+.idea/
+
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store

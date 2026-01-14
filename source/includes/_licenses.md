@@ -20,7 +20,7 @@ Attribute | Type | Description
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/licenses \
+  https://yoursite.com/wp-json/wpdm/v1/licenses \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -63,7 +63,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Licenses. Use query parameters to filter result.
+This endpoint retrieves all licenses. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -73,17 +73,17 @@ This endpoint retrieves all Licenses. Use query parameters to filter result.
 
 Parameter | Default | Description
 --------- | ------- | -----------
-`items_per_page` | `10` | Number of licenses to retrive.
+`items_per_page` | `10` | Number of licenses to retrieve.
 `page` | `0` | The page number.
 `pid` | empty | Retrieve licenses of a specific package.
 `licenseno` | empty | Get the license details using the key.
-`oid` | empty | Get license key assciated with an order id.
+`oid` | empty | Get license key associated with an order id.
 
 ## Create a License
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/licenses \
+  https://yoursite.com/wp-json/wpdm/v1/licenses \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -132,7 +132,7 @@ This endpoint creates a new License and sets License properties based on POST da
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/licenses/9 \
+  https://yoursite.com/wp-json/wpdm/v1/licenses/9 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -167,7 +167,7 @@ This endpoint retrieves a specific License by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/licenses/9 \
+  https://yoursite.com/wp-json/wpdm/v1/licenses/9 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -216,7 +216,7 @@ This endpoint updates a specific License by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/licenses/9 \
+  https://yoursite.com/wp-json/wpdm/v1/licenses/9 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```

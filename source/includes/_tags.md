@@ -11,14 +11,14 @@ Attribute | Type | Description
 `slug` | string | Tag slug.
 `description` | string | Tag details/description/content.
 `taxonomy` | string | Taxonomy name. Readonly Attribute.
-`parent` | integer | Tag parent. Always is `0` ( non-hierarchical taxonomy ).
+`parent` | integer | Tag parent. Always `0` (non-hierarchical taxonomy).
 `count` | integer | Number of packages under this Tag.
 
 ## Get All Tags
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/tags \
+  https://yoursite.com/wp-json/wpdm/v1/tags \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -60,7 +60,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Tags. Use query parameters to filter result.
+This endpoint retrieves all tags. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -82,7 +82,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/tags \
+  https://yoursite.com/wp-json/wpdm/v1/tags \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -120,7 +120,7 @@ This endpoint creates a new Tag and sets Tag properties based on POST data.
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/tags/1496 \
+  https://yoursite.com/wp-json/wpdm/v1/tags/1496 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -153,7 +153,7 @@ This endpoint retrieves a specific Tag by ID (`term_id` ).
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/tags/1496 \
+  https://yoursite.com/wp-json/wpdm/v1/tags/1496 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -191,7 +191,7 @@ This endpoint updates a specific Tag by ID (`term_id` ).
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/tags/1496 \
+  https://yoursite.com/wp-json/wpdm/v1/tags/1496 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```

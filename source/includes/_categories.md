@@ -12,16 +12,16 @@ Attribute | Type | Description
 `description` | string | Category details/description/content.
 `taxonomy` | string | Taxonomy name. Readonly Attribute.
 `icon` | string | Category icon URL.
-`parent` | integer | Category parent. Default is `0` ( no parent ).
+`parent` | integer | Category parent. Defaults to `0` (no parent).
 `count` | integer | Number of packages in this Category.
-`role_access` | array | Array of user roles who has access to this category.
-`user_access` | array | Array of usernames who has access to this category.
+`role_access` | array | Array of user roles that have access to this category.
+`user_access` | array | Array of usernames that have access to this category.
 
 ## Get All Categories
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/categories \
+  https://yoursite.com/wp-json/wpdm/v1/categories \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -78,7 +78,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Categories. Use query parameters to filter result.
+This endpoint retrieves all categories. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -101,7 +101,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/categories \
+  https://yoursite.com/wp-json/wpdm/v1/categories \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -158,7 +158,7 @@ This endpoint creates a new Category and sets Category properties based on POST 
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/categories/16 \
+  https://yoursite.com/wp-json/wpdm/v1/categories/16 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -200,7 +200,7 @@ This endpoint retrieves a specific Category by ID (`term_id` ).
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/categories/16 \
+  https://yoursite.com/wp-json/wpdm/v1/categories/16 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -257,7 +257,7 @@ This endpoint updates a specific Category by ID (`term_id` ).
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/categories/16 \
+  https://yoursite.com/wp-json/wpdm/v1/categories/16 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```

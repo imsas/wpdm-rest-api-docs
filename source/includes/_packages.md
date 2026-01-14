@@ -11,24 +11,24 @@ Attribute | Type | Description
 `slug` | string | Package slug.
 `description` | string | Package details/description/content.
 `excerpt` | string | Package excerpt.
-`author` | integer | Package author id ( WordPress user id ).
-`status` | string | Package status (post status). Options: `draft`, `pending`, `private` and `publish`. Default is `publish`.
-`parent` | string | Package parent. Default is `0` ( no parent ).
+`author` | integer | Package author id (WordPress user id).
+`status` | string | Package status (post status). Options: `draft`, `pending`, `private` and `publish`. Defaults to `publish`.
+`parent` | string | Package parent. Defaults to `0` (no parent).
 `tags` | array | Array of tag terms.
-`categories` | array | Array of category ids ( custom taxonomy term ids for `wpdmcategory` )
+`categories` | array | Array of category ids (custom taxonomy term ids for `wpdmcategory`).
 `thumbnail` | string | Featured image URL.
 `additional_previews` | array | Array of additional preview image URLs.
 `version` | string | Package version.
 `link_label` | string | Package link label. It is the download button text.
-`quota` | integer | Package quota. Default is `0` ( unlimited ).
+`quota` | integer | Package quota. Defaults to `0` (unlimited).
 `download_limit_per_user` | integer | Package download limit per user.
 `view_count` | integer | Total views of the package.
 `download_count` | integer | Total downloads of the package.
 `package_size` | string | Total size of attached files.
 `access` | array | Array of user roles who are allowed to access the package.
-`user_access` | array | Array of usernames who are allowed to access the package ( this is related to Advanced Access Control add-on ).
-`individual_file_download` | string | Single file download status. Options are `-1`( Global ), `1` ( Enable ), `0` ( Disable )
-`cache_zip` | string | Cache Zip File status. Options are `-1`( Global ), `1` ( Enable ), `0` ( Disable )
+`user_access` | array | Array of usernames who are allowed to access the package (related to Advanced Access Control add-on).
+`individual_file_download` | string | Single file download status. Options: `-1` (Global), `1` (Enable), `0` (Disable).
+`cache_zip` | string | Cache Zip File status. Options: `-1` (Global), `1` (Enable), `0` (Disable).
 `template` | string | Link template for the package.
 `page_template` | string | Page template for the package.
 `files` | object | Array of attached file names key by file ids.
@@ -47,7 +47,7 @@ Attribute | Type | Description
 `linkedin_message` | string | Linkedin lock message.
 `linkedin_url` | string | Linkedin URL.
 `tweet_lock` | string | Tweet lock status. Use value `1` to activate lock.
-`tweet_message` | string | Tweet lock mesage.
+`tweet_message` | string | Tweet lock message.
 `twitterfollow_lock` | string | Twitter follow lock status. Use value `1` to activate lock.
 `twitter_handle` | string | The Twitter handle to follow.
 `facebooklike_lock` | string | Facebook like lock status. Use value `1` to activate lock.
@@ -55,7 +55,7 @@ Attribute | Type | Description
 `email_lock` | string | Email lock status. Use value `1` to activate lock.
 `email_lock_title` | string | Email lock title.
 `email_lock_msg` | string | Email lock message.
-`email_lock_idl` | string | Email lock download option. Options are `0` ( Mail Download Link ), `1` ( Download Instantly ), `2` ( Wait For Approval )
+`email_lock_idl` | string | Email lock download option. Options: `0` (Mail Download Link), `1` (Download Instantly), `2` (Wait For Approval).
 `icon` | string | Package icon URL.
 `base_price` | integer | Package base price.
 `sales_price` | integer | Package sales price.
@@ -72,7 +72,7 @@ Attribute | Type | Description
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/packages \
+  https://yoursite.com/wp-json/wpdm/v1/packages \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -132,7 +132,7 @@ curl -X GET \
               "title": "The Quotable Einstein",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -169,7 +169,7 @@ curl -X GET \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {
@@ -244,7 +244,7 @@ curl -X GET \
               "title": "The Alchemist",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -281,7 +281,7 @@ curl -X GET \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {
@@ -332,7 +332,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/packages \
+  https://yoursite.com/wp-json/wpdm/v1/packages \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -406,7 +406,7 @@ curl -X POST \
               "title": "The Alchemist",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -443,7 +443,7 @@ curl -X POST \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {
@@ -483,7 +483,7 @@ This endpoint creates a new Package and sets package properties based on POST da
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/packages/23 \
+  https://yoursite.com/wp-json/wpdm/v1/packages/23 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -539,7 +539,7 @@ curl -X GET \
               "title": "The Alchemist",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -576,7 +576,7 @@ curl -X GET \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {
@@ -616,7 +616,7 @@ This endpoint retrieves a specific Package by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/packages/6488 \
+  https://yoursite.com/wp-json/wpdm/v1/packages/6488 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -690,7 +690,7 @@ curl -X PUT \
               "title": "The Alchemist",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -727,7 +727,7 @@ curl -X PUT \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {
@@ -767,7 +767,7 @@ This endpoint updates a specific Package by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/packages/6488 \
+  https://yoursite.com/wp-json/wpdm/v1/packages/6488 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -823,7 +823,7 @@ curl -X DELETE \
               "title": "The Alchemist",
               "password": "",
               "license_price": {
-                  "statdard": "",
+                  "standard": "",
                   "extended": "",
                   "unlimited": ""
               },
@@ -860,7 +860,7 @@ curl -X DELETE \
       "sales_price_expire": "2019-08-31 12:00 am",
       "pay_as_you_want": "0",
       "license": {
-          "statdard": {
+          "standard": {
               "active": "1"
           },
           "extended": {

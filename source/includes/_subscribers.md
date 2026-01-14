@@ -11,14 +11,14 @@ Attribute | Type | Description
 `pid` | integer | The Package id from where the email was captured.
 `email` | string | User's email address.
 `date` | date | The date of the download.
-`custom_data` | array | Additiona custom fileds data added by the Quick Form.
+`custom_data` | array | Additional custom fields data added by the Quick Form.
 `request_status` | string | Download link request status.
 
 ## Get All Subscribers
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/subscribers \
+  https://yoursite.com/wp-json/wpdm/v1/subscribers \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -77,7 +77,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Subscribers. Use query parameters to filter result.
+This endpoint retrieves all subscribers. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -87,7 +87,7 @@ This endpoint retrieves all Subscribers. Use query parameters to filter result.
 
 Parameter | Default | Description
 --------- | ------- | -----------
-`items_per_page` | `10` | Number of records to retrive.
+`items_per_page` | `10` | Number of records to retrieve.
 `page` | `0` | The page number.
 `start_date` | empty | Filter subscribers by date.
 `end_date` | empty | Filter subscribers by date.
@@ -97,7 +97,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/subscribers \
+  https://yoursite.com/wp-json/wpdm/v1/subscribers \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -144,7 +144,7 @@ This endpoint creates a new Subscriber and sets Subscriber properties based on P
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/subscribers/1 \
+  https://yoursite.com/wp-json/wpdm/v1/subscribers/1 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -178,7 +178,7 @@ This endpoint retrieves a specific Subscriber by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/subscribers/1 \
+  https://yoursite.com/wp-json/wpdm/v1/subscribers/1 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -225,7 +225,7 @@ This endpoint updates a specific Subscriber by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/subscribers/1 \
+  https://yoursite.com/wp-json/wpdm/v1/subscribers/1 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```

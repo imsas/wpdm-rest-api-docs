@@ -12,18 +12,18 @@ Attribute | Type | Description
 `type` | string | Coupon type. Options are `percent` and `fixed`
 `discount` | string | The discount amount.
 `min_order_amount` | string | The required min order amount for this coupon.
-`max_order_amount` | string | The limit of maximun order total for this coupon.
+`max_order_amount` | string | The limit of maximum order total for this coupon.
 `product` | string | Associated product id. If set to `0` the coupon is global, applicable to any product.
 `allowed_emails` | string | Limit the coupon only to specified email addresses.
 `expire_date` | date | Coupon expiration date. After this date the coupon will be invalid.
-`usage_limit` | integer | Maximum usage of the copuon.
+`usage_limit` | integer | Maximum usage of the coupon.
 `used` | integer | The number of times this coupon has been used.
 
 ## Get All Coupons
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/coupons \
+  https://yoursite.com/wp-json/wpdm/v1/coupons \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -67,7 +67,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Coupons. Use query parameters to filter result.
+This endpoint retrieves all coupons. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -77,16 +77,16 @@ This endpoint retrieves all Coupons. Use query parameters to filter result.
 
 Parameter | Default | Description
 --------- | ------- | -----------
-`items_per_page` | `10` | Number of coupons to retrive.
+`items_per_page` | `10` | Number of coupons to retrieve.
 `page` | `0` | The page number.
 `product` | empty | Filter coupons of a specific product.
-`type` | empty | Filter coupons by copuon type. Options are `percent` and `fixed`
+`type` | empty | Filter coupons by coupon type. Options are `percent` and `fixed`
 
 ## Create a Coupon
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/coupons \
+  https://yoursite.com/wp-json/wpdm/v1/coupons \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -133,7 +133,7 @@ This endpoint creates a new Coupon and sets Coupon properties based on POST data
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/coupons/5 \
+  https://yoursite.com/wp-json/wpdm/v1/coupons/5 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -167,7 +167,7 @@ This endpoint retrieves a specific Coupon by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/coupons/5 \
+  https://yoursite.com/wp-json/wpdm/v1/coupons/5 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -214,7 +214,7 @@ This endpoint updates a specific Coupon by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/coupons/5 \
+  https://yoursite.com/wp-json/wpdm/v1/coupons/5 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```

@@ -11,7 +11,7 @@ Attribute | Type | Description
 `title` | string | Order title
 `date` | date | The date the order was created.
 `items` | array | Array of package IDs that are included in this order.  
-`cart_data` | object | Detailed information about cart/order items. Check the response JSON to get a clear idea how data are fomatted in this attribute.
+`cart_data` | object | Detailed information about cart/order items. See the response JSON to understand how the data is formatted.
 `total` | string | Grand total of the order. The amount paid by the customer.
 `order_status` | string | Order status. Options are `Pending`, `Processing`, `Completed`, `Expired`, `Cancelled`
 `payment_status` | string | Payment status. Options are `Pending`, `Processing`, `Completed`, `Expired`, `Cancelled`, `Gifted`, `Disputed`, `Refunded`
@@ -26,14 +26,14 @@ Attribute | Type | Description
 `billing_info` | object | The object contains the Billing details of the customer.
 `expire_date` | date | The date when the order will be expired.
 `auto_renew` | int | Order auto renew status. Default `0`
-`coupon_code` | string | The coupon code applied to theis order.
+`coupon_code` | string | The coupon code applied to this order.
 `subtotal` | string | The subtotal of the order before applying discounts.
 
 ## Get All Orders
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/orders \
+  https://yoursite.com/wp-json/wpdm/v1/orders \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -62,7 +62,7 @@ curl -X GET \
                 "price": "10.00",
                 "files": [],
                 "license": {
-                    "id": "statdard",
+                    "id": "standard",
                     "info": {
                         "name": "Standard",
                         "description": "",
@@ -154,7 +154,7 @@ curl -X GET \
                 "price": "10.00",
                 "files": [],
                 "license": {
-                    "id": "statdard",
+                    "id": "standard",
                     "info": {
                         "name": "Standard",
                         "description": "",
@@ -229,7 +229,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Orders. Use query parameters to limit the response.
+This endpoint retrieves all orders. Use query parameters to limit the response.
 
 ### HTTP Request
 
@@ -239,7 +239,7 @@ This endpoint retrieves all Orders. Use query parameters to limit the response.
 
 Parameter | Default | Description
 --------- | ------- | -----------
-`items_per_page` | `10` | Number of orders to retrive.
+`items_per_page` | `10` | Number of orders to retrieve.
 `page` | `0` | The page number.
 `start_date` | empty | Limit response to orders created after a given date-time. Example, `2019-01-31 12:00 am`
 `end_date` | empty | Limit response to orders created before a given date-time. Example, `2019-03-22 12:00 am`
@@ -252,7 +252,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/orders \
+  https://yoursite.com/wp-json/wpdm/v1/orders \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -391,7 +391,7 @@ This endpoint creates a new Order and sets Order properties based on POST data.
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/orders/5caa1c94aaf0f \
+  https://yoursite.com/wp-json/wpdm/v1/orders/5caa1c94aaf0f \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -472,7 +472,7 @@ This endpoint retrieves a specific Order by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/orders/5caa1c94aaf0f \
+  https://yoursite.com/wp-json/wpdm/v1/orders/5caa1c94aaf0f \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -557,7 +557,7 @@ This endpoint updates a specific Order by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/orders/5c9f89523c467 \
+  https://yoursite.com/wp-json/wpdm/v1/orders/5c9f89523c467 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -581,7 +581,7 @@ curl -X DELETE \
             "price": "59.00",
             "files": [],
             "license": {
-                "id": "statdard",
+                "id": "standard",
                 "info": {
                     "name": "Standard",
                     "description": "",

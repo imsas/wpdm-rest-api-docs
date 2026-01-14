@@ -14,15 +14,14 @@ Attribute | Type | Description
 `year` | integer | Downloaded year.
 `month` | integer | Downloaded month.
 `day` | integer | Downloaded day.
-`day` | integer | Downloaded day.
 `timestamp` | string | Unix timestamp of the download time.
-`ip` | string | The IP from whre the download was initiated.
+`ip` | string | The IP from where the download was initiated.
 
 ## Get All Stats
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/stats \
+  https://yoursite.com/wp-json/wpdm/v1/stats \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -74,7 +73,7 @@ curl -X GET \
 ]
 ```
 
-This endpoint retrieves all Download Stats. Use query parameters to filter result.
+This endpoint retrieves all download stats. Use query parameters to filter results.
 
 ### HTTP Request
 
@@ -84,7 +83,7 @@ This endpoint retrieves all Download Stats. Use query parameters to filter resul
 
 Parameter | Default | Description
 --------- | ------- | -----------
-`items_per_page` | `10` | Number of records to retrive.
+`items_per_page` | `10` | Number of records to retrieve.
 `page` | `0` | The page number.
 `start_date` | empty | Filter stats by date.
 `end_date` | empty | Filter stats by date.
@@ -95,7 +94,7 @@ Parameter | Default | Description
 
 ```shell
 curl -X POST \
-  https://yorusite.com/wp-json/wpdm/v1/stats \
+  https://yoursite.com/wp-json/wpdm/v1/stats \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -138,7 +137,7 @@ This endpoint creates a new Download Stat and sets Download Stat properties base
 
 ```shell
 curl -X GET \
-  https://yorusite.com/wp-json/wpdm/v1/stats/393 \
+  https://yoursite.com/wp-json/wpdm/v1/stats/393 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
@@ -170,7 +169,7 @@ This endpoint retrieves a specific Download Stat by ID.
 
 ```shell
 curl -X PUT \
-  https://yorusite.com/wp-json/wpdm/v1/stats/393 \
+  https://yoursite.com/wp-json/wpdm/v1/stats/393 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -213,7 +212,7 @@ This endpoint updates a specific Download Stat by ID.
 
 ```shell
 curl -X DELETE \
-  https://yorusite.com/wp-json/wpdm/v1/stats/393 \
+  https://yoursite.com/wp-json/wpdm/v1/stats/393 \
   -H 'Authorization: Bearer 613efe9acb0d5c2b' \
   -H 'Content-Type: application/json'
 ```
